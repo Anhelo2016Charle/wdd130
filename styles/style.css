@@ -16,13 +16,13 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solis blank;
+    border: 1px solis steelblue;
     padding: 2px;
-    box-shadow: 0, 0, 30px gray;
+    box-shadow: 0 0 30px gray;
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 main {
     max-width: 840px;
