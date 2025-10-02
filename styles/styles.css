@@ -1,6 +1,13 @@
+:root {
+    --heading-background-color: darkblue;
+    --padding: 10px;
+    --align: center;
+}
 nav {
-    background-color: darkblue;
-    padding: 10px
+    /* background-color: darkblue; */
+    background-color: var(--heading-background-color);
+    /* padding: 10px */
+    padding: var(--padding);
 }
 nav a {
     color: white;
@@ -8,7 +15,8 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: darkblue;
+    /* color: darkblue; */
+    color: var(--heading-background-color);
 }
 img {
     width: 150px;
@@ -18,7 +26,8 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    /* padding: 10px; */
+    padding: var(--padding);
 }
 
 main {
@@ -32,7 +41,8 @@ aside {
     padding: 1rem;
     background-color:  #eee;
     color: #333;
-    text-align: center;
+    /* text-align: center; */
+    text-align: var(--align);
 }
 
 aside img {
@@ -50,5 +60,6 @@ p { padding: 0;}
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    /* text-align: center; */
+    text-align: var(--align);
 }
