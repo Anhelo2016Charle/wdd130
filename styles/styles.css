@@ -8,15 +8,22 @@ nav {
     background-color: var(--heading-background-color);
     /* padding: 10px */
     padding: var(--padding);
+    display: flex;   /*horizontal*/
+    justify-content: space-evenly;   /*spacing*/
+    align-items: center;
 }
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem; /*letters*/
+    font-weight: 700; /*bold*/
 }
 h1 {
     /* color: darkblue; */
     color: var(--heading-background-color);
+    border-bottom: 1px solid #251e1e;
 }
 img {
     width: 150px;
@@ -62,4 +69,24 @@ footer {
     border-top: 1px solid #000;
     /* text-align: center; */
     text-align: var(--align);
+}
+
+head, footer, .grid{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+main {
+    grid-column: 2/3;
+    margin: 1rem;
+}
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
