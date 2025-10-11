@@ -13,7 +13,7 @@ nav {
     align-items: center;
 }
 nav a {
-    color: white;
+    color: white;                                   
     display: block;
     padding: 0.5rem;
     text-decoration: none;
