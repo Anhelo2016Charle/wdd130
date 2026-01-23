@@ -22,7 +22,7 @@ p {
 }
 
 main {
-    width: 850px;;
+    max-width: 850px;;
 }
 
 aside {
@@ -41,7 +41,7 @@ aside img {
 }
 
 footer {
-    margin: 1rem;
+    margin-top: 1rem;
     border-top: 1px solid #000;
     text-align: center;
 }
