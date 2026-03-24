@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-align: center;
+    --height: auto;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -15,10 +26,13 @@ h1 {
 
 /* It is my time */
 main img {
+    float: right;
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 1px solid black;
     padding: 2px;
+    margin-bottom: 15px;
+    /*I added it*/
     box-shadow: 0 0 30px gray;
 }
 
@@ -32,21 +46,38 @@ main {
 
 aside {
     width: 25rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: center;
+    position: relative;
+    /* margin: 1rem; */
+    /* border: 1px solid rgb(0 0 0 / 0.2); */
+    /* padding: 1rem; */
+    /* background-color: #eee; */
+    /* color: #333; */
+    text-align: var(--text-align);
 }
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
-    text-align: center;
+    text-align: var(--text-align);
+}
+
+/*THis is my class selector*/
+.box {
+    clear: right;
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: rgb(201, 248, 201);
+    color: #000;
+}
+
+aside h2 {
+    position: absolute;
+    top: 12px;
+    right: 125px;
 }
