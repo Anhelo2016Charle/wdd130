@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #139348;
+    --primary-color: #2d4939;
     /* --second-color: #0c0e0b; */
     --acent1-color: #2a2c12;
     --acent2-color: #767042;
@@ -65,7 +65,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 400px;
     left: 10px;
