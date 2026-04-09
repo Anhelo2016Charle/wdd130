@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #3a6b26;
-    --second-color: #426da5;
+    --primary-color: #325724;
+    --second-color: #355785;
     --acent1-color: black;
     --acent2-color: #fff;
     --heading-font: "Time New Roma", "Georgia", serif;
@@ -41,7 +41,7 @@ article {
 }
 
 .main-footer {
-    background-color: rgb(124, 121, 121);
+    background-color: rgb(38, 54, 41);
     border: 1px solid var(--acent1-color);
     display: flex;
     justify-content: space-between;
