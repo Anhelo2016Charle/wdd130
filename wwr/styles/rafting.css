@@ -122,11 +122,11 @@ h1 {
 }
 
 header a {
-    background-color: var(--acent2-color);
+    background-color: #6189c5;
     width: 127px;
     padding: 15px 15px;
     border: 1px solid var(--acent1-color);
-    color: var(--acent1-color);
+    color: white;
     font-size: larger;
 }
 
@@ -159,7 +159,7 @@ header a {
     flex: 1;
     text-align: justify;
     padding: 0;
-    color: var(--acent2-color);
+    color: white;
 }
 
 .invitation {
@@ -178,7 +178,7 @@ header a {
 
 }
 
-.item {
+figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
