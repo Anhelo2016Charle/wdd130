@@ -10,6 +10,13 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
+    flex: 1 1 100%;
+}
+
+nav u {
+    list-style-type: none;
+    display: flex;
     flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
