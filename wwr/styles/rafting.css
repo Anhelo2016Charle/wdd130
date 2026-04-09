@@ -1,6 +1,6 @@
 :root {
     --primary-color: #0d8604;
-    --second-color: #88a4ce;
+    --second-color: #4d75b3;
     --acent1-color: black;
     --acent2-color: #fff;
     --heading-font: "Time New Roma", "Georgia", serif;
@@ -83,7 +83,7 @@ h1 {
     text-align: center;
     opacity: 0.8;
     background-color: var(--primary-color);
-    color: var(--acent2-color);
+    color: white;
 }
 
 .hero h1 {
