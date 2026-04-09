@@ -41,13 +41,14 @@ article {
 }
 
 .main-footer {
-    background-color: var(--primary-color);
+    background-color: rgb(124, 121, 121);
     border: 1px solid var(--acent1-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 15px auto;
     padding: 0 20px;
+    color: var(--acent2-color);
 }
 
 .socialmedia a {
@@ -80,7 +81,7 @@ h1 {
     width: 100%;
     padding: 16px;
     text-align: center;
-    opacity: 0.7;
+    opacity: 0.8;
     background-color: var(--acent1-color);
     color: var(--acent2-color);
 }
@@ -160,6 +161,7 @@ header a {
     flex: 1;
     text-align: justify;
     padding: 0;
+    color: var(--acent2-color);
 }
 
 .invitation {
