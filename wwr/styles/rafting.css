@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+/*  */
 body {
     font-family: var(--body-font);
     color: var(--acent1-color);
