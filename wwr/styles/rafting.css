@@ -1,8 +1,8 @@
 :root {
-    --primary-color: #5a9b42;
+    --primary-color: #75bb5c;
     --second-color: #88a4ce;
     --acent1-color: black;
-    --acent2-color: white;
+    --acent2-color: #fff;
     --heading-font: "Time New Roma", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
