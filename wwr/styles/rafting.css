@@ -1,6 +1,6 @@
 :root {
     --primary-color: #325724;
-    --second-color: #355785;
+    --second-color: #2b4161;
     --acent1-color: black;
     --acent2-color: #fff;
     --heading-font: "Time New Roma", "Georgia", serif;
@@ -29,8 +29,7 @@ footer {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
-    text-align: center;
+    color: var(--acent1-color);
 }
 
 nav,
@@ -42,8 +41,8 @@ article {
 }
 
 .main-footer {
-    background-color: rgb(38, 54, 41);
-    border: 1px solid var(--acent1-color);
+    background-color: var(--second-color);
+    border: 2px solid var(--acent1-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -83,7 +82,7 @@ h1 {
     padding: 16px;
     text-align: center;
     opacity: 0.8;
-    background-color: var(--acent1-color);
+    background-color: var(--primary-color);
     color: var(--acent2-color);
 }
 
@@ -91,7 +90,7 @@ h1 {
     position: absolute;
     top: 400px;
     left: 10px;
-    background-color: var(--second-color);
+    background-color: var(--primary-color);
     width: 800px;
     color: var(--acent2-color);
     border: 1px solid var(--acent1-color);
@@ -112,7 +111,6 @@ h1 {
     padding: 10px 20px;
     margin: 10px auto;
     background-color: var(--second-color);
-    border: 1px solid var(--acent1-color);
 }
 
 .bar img {
@@ -128,7 +126,7 @@ header a {
     width: 127px;
     padding: 15px 15px;
     border: 1px solid var(--acent1-color);
-    color: var(--primary-color);
+    color: var(--acent1-color);
     font-size: larger;
 }
 
@@ -148,14 +146,13 @@ header a {
 
 .history {
     background-color: var(--primary-color);
-    border: 2px solid #2a2c12;
     margin-top: 65px;
 }
 
 .history img {
     width: 250px;
     margin: 0;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .content p {
@@ -167,8 +164,8 @@ header a {
 
 .invitation {
     background-color: var(--primary-color);
-    border: 2px solid var(--acent1-color);
-    padding: 30px;
+    /* border: 2px solid var(--acent1-color); */
+    padding: 50px;
     text-align: center;
 }
 
@@ -176,7 +173,7 @@ header a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding-top: 35px;
+    padding-top: 80px;
     gap: 5px;
 
 }
@@ -189,4 +186,6 @@ header a {
     width: 120px;
     background-color: var(--acent2-color);
     padding: 4px;
+    color: var(--acent1-color);
+    font-family: var(--body-font);
 }
